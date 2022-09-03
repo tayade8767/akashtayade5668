@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int  a=100,b=300;
+    printf("before a=%d,b=%d\n",a,b);
+    a=a+b;   //400
+    b=a-b;   //b=100
+    a=a-b;
+     printf("after a=%d,b=%d",a,b);
+}
